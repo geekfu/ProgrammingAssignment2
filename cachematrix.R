@@ -2,6 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
+## initialize a list of 4 functions with the matrix
+## set: set the matrix
+## get: get the stored matrix
+## setinversion: set the inversion of the matrix
+## getinversion: get the inversion of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         # initialize the inversion as NULL
@@ -25,6 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## get the inversion of the defaulted invertible matrix using the function solve
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
